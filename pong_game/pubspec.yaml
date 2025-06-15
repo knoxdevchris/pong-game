@@ -1,0 +1,21 @@
+name: pong_game
+description: A simple Pong-style game built with Flutter using animations and gestures.
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # Optional: use this if you want to play sound or add other functionality later
+  # audioplayers: ^5.2.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
